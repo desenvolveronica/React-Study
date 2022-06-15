@@ -1,8 +1,11 @@
 import React from 'react';
-import Home from './views/Home'
+import Rotas from '../src/routes'
 
 function App() {
-  return  <Home/>
+  return  <>
+  <Rotas/>
+  </>
+
 
 }
 
