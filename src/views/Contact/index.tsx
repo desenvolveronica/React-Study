@@ -1,10 +1,13 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {Container} from "./style"
 
 const Contact: React.FC = () =>  {
     return(
-        <div> 
+        <Container> 
             <h1>Contact</h1>
-        </div>
+            <Link to="/" className='link'> Acessar página Home </Link>
+        </Container>
     )
 }
 
