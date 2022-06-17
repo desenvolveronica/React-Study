@@ -5,13 +5,23 @@ export const Container = Styled.div `
     width: 100%;
     height: 100vh;
     background: pink;
+    justify-content: center;
+    align-items: center;
 
-    .link {
-        border: solid 2px #fff;
-        position: absolute;
-        text-decoration: none;
-        margin-top: 50px;
-        padding: 10px;
-        text-transform: uppercase
+    .button-container {
+        display: block;
+        margin: 100px;
+        border: solid 1px white;
+
+
     }
-`
+    .button-container button{
+        color: blue;
+        font-size: 20px;
+        padding: 10px
+    }
+
+
+
+
+`  
